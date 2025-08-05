@@ -37,6 +37,7 @@
             <div class="social-media">
                 <a href="https://web.facebook.com/dilusha.radeeshan.7/"><i class='bx bxl-facebook'></i></a>
                 <a href="https://www.linkedin.com/in/dilusha-radeeshan-7abaab326/"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://github.com/dilusharadeeshan"><i class='bx bxl-github'></i></a>
             </div>
             <a href="/cv/My Resume.pdf" class="btn" download="Dilusha Radeeshan Resume">Download CV</a>
         </div>
@@ -96,22 +97,29 @@
     </section>
 
     <!-- Contact Section -->
-    <section class="contact" id="contact">
-        <h2 class="heading">Contact <span>Me!</span></h2>
-        <form action="https://formsubmit.co/dilusharadeeshan@gmail.com" method="POST">
-            
-            <div class="input-box">
-                <input type="text" name="Full name" placeholder="Full Name">
-                <input type="email" name="Email" placeholder="Email Address">
-            </div>
-            <div class="input-box">
-                <input type="tel" name="Tel" placeholder="Mobile Number">
-                <input type="text" name="Subject" placeholder="Email Subject">
-            </div>
-            <textarea name="Message" cols="30" rows="10" placeholder="Your Message"></textarea>
-            <input type="submit" value="Send Message" class="btn">
-        </form>
-    </section>
+<section class="contact" id="contact">
+    <h2 class="heading">Contact <span>Me!</span></h2>
+    
+    <form action="https://formspree.io/f/mdkdwlbb" method="POST">
+        <!-- Replace "yourFormID" with your actual Formspree ID -->
+        
+        <div class="input-box">
+            <input type="text" name="name" placeholder="Full Name" required>
+            <input type="email" name="email" placeholder="Email Address" required>
+        </div>
+        <div class="input-box">
+            <input type="tel" name="phone" placeholder="Mobile Number">
+            <input type="text" name="subject" placeholder="Email Subject">
+        </div>
+        <textarea name="message" cols="30" rows="10" placeholder="Your Message" required></textarea>
+
+        <!-- Optional: Redirect after submission -->
+        <input type="hidden" name="_redirect" value="https://yourdomain.com/thank-you.html">
+
+        <input type="submit" value="Send Message" class="btn">
+    </form>
+</section>
+
 
     <!-- Footer -->
     <footer class="footer">
