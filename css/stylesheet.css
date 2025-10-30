@@ -198,7 +198,7 @@ span {
 .portfolio-container {
     display: grid;
     align-items: center;
-    gap:2.5rem;
+    gap:2.0rem;
     grid-template-columns: repeat(3, 1fr);
 }
 
