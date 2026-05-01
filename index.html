@@ -4,7 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <meta name="description"
+        content="Portfolio of Dilusha Radeeshan, an undergraduate software developer focused on responsive web interfaces, backend systems, and database-driven applications.">
+    <meta name="author" content="Dilusha Radeeshan">
+    <title>Dilusha Radeeshan | Software Developer Portfolio</title>
 
     <!-- Boxicons CDN -->
     <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
@@ -17,11 +20,14 @@
 
     <!-- Header -->
     <header class="header">
-        <a href="#" class="logo">Portfolio</a>
-        <i class='bx bx-menu' id="menu-icon"></i>
+        <a href="#home" class="logo">Dilusha<span>.</span></a>
+        <button class="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false">
+            <i class='bx bx-menu' id="menu-icon"></i>
+        </button>
         <nav class="navbar">
             <a href="#home" class="active">Home</a>
             <a href="#about">About</a>
+            <a href="#skills">Skills</a>
             <a href="#portfolio">Portfolio</a>
             <a href="#contact">Contact</a>
         </nav>
@@ -33,13 +39,19 @@
             <h3>Hello, It's Me</h3>
             <h1>Dilusha Radeeshan</h1>
             <h3>And I'm a <span class="multiple-text"></span></h3>
-            <p>I'm a student of the University of Ruhuna</p>
+            <p>
+                Undergraduate at the University of Ruhuna building responsive interfaces, practical software systems,
+                and database-backed applications.
+            </p>
             <div class="social-media">
-                <a href="https://web.facebook.com/dilusha.radeeshan.7/"><i class='bx bxl-facebook'></i></a>
-                <a href="https://www.linkedin.com/in/dilusha-radeeshan-7abaab326/"><i class='bx bxl-linkedin'></i></a>
-                <a href="https://github.com/dilusharadeeshan"><i class='bx bxl-github'></i></a>
+                <a href="https://web.facebook.com/dilusha.radeeshan.7/" aria-label="Facebook profile"><i
+                        class='bx bxl-facebook'></i></a>
+                <a href="https://www.linkedin.com/in/dilusha-radeeshan-7abaab326/" aria-label="LinkedIn profile"><i
+                        class='bx bxl-linkedin'></i></a>
+                <a href="https://github.com/dilusharadeeshan" aria-label="GitHub profile"><i
+                        class='bx bxl-github'></i></a>
             </div>
-            <a href="/cv/My Resume.pdf" class="btn" download="Dilusha Radeeshan Resume">Download CV</a>
+            <a href="cv/My Resume.pdf" class="btn" download="Dilusha Radeeshan Resume">Download CV</a>
         </div>
         <div class="home-image">
             <img src="https://i.postimg.cc/y6hQXYQT/pp.png" alt="home-image">
@@ -55,11 +67,33 @@
             <h2 class="heading">About <span>Me</span></h2>
             <h3>Frontend Developer</h3>
             <p>
-                I'm a passionate Frontend Developer dedicated to crafting engaging and user-friendly web experiences.
-                With a keen eye for design and a strong foundation in modern web technologies, I transform ideas into
-                responsive and intuitive digital solutions.
+                I enjoy turning ideas into clean, responsive digital products. My work combines HTML, CSS, JavaScript,
+                C programming, and MySQL fundamentals with a growing focus on building interfaces that are easy to use
+                and systems that are simple to maintain.
             </p>
-            <a href="#" class="btn">Read More</a>
+            <a href="#contact" class="btn">Let's Connect</a>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+        <h2 class="heading">Core <span>Skills</span></h2>
+        <div class="skills-container">
+            <article class="skill-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>Frontend Development</h3>
+                <p>Responsive layouts, interactive pages, semantic HTML, modern CSS, and JavaScript behavior.</p>
+            </article>
+            <article class="skill-box">
+                <i class='bx bx-data'></i>
+                <h3>Database Design</h3>
+                <p>MySQL schema planning, academic data handling, query design, and structured record management.</p>
+            </article>
+            <article class="skill-box">
+                <i class='bx bx-terminal'></i>
+                <h3>Programming</h3>
+                <p>C programming fundamentals, file handling, menu-driven systems, functions, arrays, and structures.</p>
+            </article>
         </div>
     </section>
 
@@ -76,7 +110,8 @@
                         using file handling techniques. It provides a simple menu-driven interface for
                         easy interaction and helps demonstrate fundamental concepts of C such as structures, arrays,
                         functions, and file I/O.</p>
-                    <a href="https://github.com/dilusharadeeshan/Air-Ticket-Reservation-System"><i
+                    <a href="https://github.com/dilusharadeeshan/Air-Ticket-Reservation-System"
+                        aria-label="Open Air Ticket Reservation System repository"><i
                             class='bx bx-link-external'></i></a>
                 </div>
             </div>
@@ -90,7 +125,8 @@
                         validation, navigation effects, and interactive elements, while the design ensures a smooth user
                         experience across devices. It showcases front-end development skills and user-centric design.
                     </p>
-                    <a href="https://github.com/dilusharadeeshan/Event-Management-Website"><i
+                    <a href="https://github.com/dilusharadeeshan/Event-Management-Website"
+                        aria-label="Open Event Planning Website repository"><i
                             class='bx bx-link-external'></i></a>
                 </div>
             </div>
@@ -107,12 +143,25 @@
                         development skills and database management expertise. This project currently operates as a
                         powerful data engine, ready to integrate with any front-end interface.
                     </p>
-                    <a href="https://github.com/dilusharadeeshan/Student-Management-System"><i
+                    <a href="https://github.com/dilusharadeeshan/Student-Management-System"
+                        aria-label="Open Student Management System repository"><i
+                            class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="https://i.postimg.cc/wxDbC9dt/Chat-GPT-Image-May-1-2026-09-02-16-AM.png" alt="Student-Management-System">
+                <div class="portfolio-layer">
+                    <h4>Student Management System</h4>
+                    <p>This is a comprehensive web-based application designed to streamline student information management. Built with modern web technologies, it provides an intuitive interface for educators to maintain academic records, track attendance, and generate reports. The application features a responsive design, ensuring seamless functionality across various devices. It demonstrates proficiency in full-stack development and user experience design.
+                    </p>
+                    <a href="https://github.com/HarshaPriyankara/L2S1_Java_Project"
+                        aria-label="Open Student Management System repository"><i
                             class='bx bx-link-external'></i></a>
                 </div>
             </div>
         </div>
     </section>
+                     
 
     <!-- Contact Section -->
     <section class="contact" id="contact">
@@ -131,9 +180,6 @@
             </div>
             <textarea name="message" cols="30" rows="10" placeholder="Your Message" required></textarea>
 
-            <!-- Optional: Redirect after submission -->
-            <input type="hidden" name="_redirect" value="https://yourdomain.com/thank-you.html">
-
             <input type="submit" value="Send Message" class="btn">
         </form>
     </section>
@@ -142,7 +188,7 @@
     <!-- Footer -->
     <footer class="footer">
         <div class="footer-text">
-            <p>&copy; 2025 by Dilusha | All Rights Reserved.</p>
+            <p>&copy; 2026 by Dilusha Radeeshan | All Rights Reserved.</p>
         </div>
         <div class="footer-iconTop">
             <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
